@@ -1,0 +1,71 @@
+
+@media (max-width: 1050px) {
+    /* INICIO MAIN */
+
+    .main {
+        background-size: cover;
+    }
+
+    .main h1 {
+        font-size: 44px;
+    }
+
+    .main p {
+        font-size: 20px;
+    }
+
+    /* INICIO ABOUT */
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+
+    .about div {
+        max-width: 80%;
+    }
+
+    .about div h2 {
+        font-size: 45px;
+    }
+
+    .about img {
+        max-width: 80%;
+        height: 40vh;
+        margin-top: 30px;
+    }
+
+    /* INICIO PROJECTS */
+
+    .project-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    }
+
+    .projects img {
+       width: 70%;
+       height: 30vh;
+    }
+
+    /* INICIO FOOTER */
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer h3 {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+
+    footer p {
+        margin: 0;
+    }
+
+
+}
